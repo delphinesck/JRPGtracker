@@ -1,0 +1,675 @@
+html, body {
+    font-family: 'Roboto', sans-serif;
+    width: 100%;
+    letter-spacing: 0.2px;
+}
+
+
+/* LOGIN */
+#login_page {
+    width: 100%;
+    height: 100%;
+    background-image: url('../images/backgrounds/1.jpg');
+    background-position: cover;
+}
+
+
+/* HEADER */
+header {
+    position: fixed;
+    top: 0;
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #292c31;
+    width: 100%;
+    z-index: 2;
+}
+
+#header_title {
+    font-size: 18px;
+    margin: 20px;
+    color: #f8f9fa;
+}
+
+#logout {
+    color: #9a9da0;
+    font-size: 14px;
+    cursor: pointer;
+}
+
+#logout:hover {
+    color: #f8f9fa;
+}
+
+#logout_text {
+    margin: 0px 30px 0px 8px;
+}
+
+
+/* NAVIGATION */
+nav {
+    position: fixed;
+    width: 200px;
+    padding-top: 70px;
+    background-color: #f8f9fa;
+    border-right: 1px solid #dedfe0;
+    height: 100%;
+    z-index: 1;
+}
+
+nav, a {
+    text-decoration: none;
+}
+
+.nav_link {
+    display: flex;
+    flex-wrap: nowrap;
+    margin: 30px;
+    color: #999;
+}
+
+.nav_link:hover {
+    color: #333333;
+}
+
+.nav_icon {
+    width: 30px;
+}
+
+.nav_title {
+    color: #333333;
+}
+
+.active {
+    color: #00a5fd;
+}
+
+
+/* MAIN DIV */
+main {
+    width: 100%;
+    height: 100%;
+    background-color: white;
+    font-size: 15px;
+    line-height: 1.8;
+}
+
+#main_box {
+    display: block; 
+    padding-top: 80px;
+    margin-left: 200px;
+}
+
+#main_box_margin {
+    width: 1317px;
+    margin: auto;
+}
+
+#main_title_box {
+    display: block;
+    position: relative;
+}
+
+h2 {
+    font-size: 25px;
+    margin: 15px;
+    text-align: center;
+    width: 100%;
+}
+
+#back_button {
+    position: absolute;
+    left: 20px;
+    top: 10px;
+    word-spacing: 5px;
+    color: #999;
+    padding: 5px 10px;
+    background-color: white;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    border-radius: 5px;
+}
+
+#back_button:hover {
+    color: #333333;
+}
+
+
+/* NEW GAME PAGE */
+#form_game {
+    width: 100%;
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+    margin-bottom: 70px;
+}
+
+#main_box_left {
+    height: 100%;
+}
+
+#main_box_right {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: stretch;
+    align-content: flex-start;
+}
+
+#sub_box_right_top {
+    display: flex;
+    flex-wrap: nowrap;
+    height: 217px;
+}
+
+#sub_box_right_middle {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.box {
+    background-color: #f8f9fa;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    border-radius: 5px;
+    margin: 10px;
+    border: 1px solid #dedfe0;
+}
+
+.type1 {
+    margin-bottom: 20px;
+}
+
+.type2 {
+    width: 730px;
+}
+
+.type4 {
+    width: 310px;
+}
+
+.sub_box {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.scrolling {
+    max-height: 149px;
+    overflow: auto;
+}
+
+.box_content {
+    margin: 15px;
+}
+
+.form_title {
+    font-size: 16px;
+    color: #00a5fd;
+    margin-bottom: 15px;
+    border-bottom: 1px solid #dedfe0;
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+}
+
+.form_icon {
+    position: relative;
+    left: 7px;
+}
+
+h3 {
+    width: 100%;
+    margin-left: 30px;
+    -webkit-border-top-left-radius: 5px;
+    -webkit-border-top-right-radius: 5px;
+    -moz-border-radius-topleft: 5px;
+    -moz-border-radius-topright: 5px;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+}
+
+.release_country {
+    width: 25px;
+    display: inline-block;
+}
+
+.number_box {
+    margin-left: 10px;
+}
+
+.completion_subbox {
+    display: flex;
+    flex-wrap: nowrap;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.completion_margin {
+    margin-top: 17px;
+}
+
+.form_detail {
+    color: #999;
+    font-size: 11px;
+}
+
+
+
+/* ATTRIBUTES PAGE */
+#attributes_box {
+    display: flex;
+    flex-wrap: nowrap;
+    width: 100%;
+    justify-content: space-around;
+}
+
+.attribute {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    width: 250px;
+    padding: 50px 30px;
+    margin: 20px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    border-radius: 5px;
+    color: white;
+    font-size: 25px;
+    text-align: center;
+}
+
+.attribute i {
+    font-size: 70px;
+    margin: auto;
+    margin-bottom: 20px;
+}
+
+.att_dev {
+    background-color: #00b894;
+}
+.att_dev:hover {
+    background-color: #55efc4;
+}
+
+.att_pub {
+    background-color: #fdcb6e;
+}
+.att_pub:hover {
+    background-color: #ffeaa7;
+}
+
+.att_fra {
+    background-color: #0984e3;
+}
+.att_fra:hover {
+    background-color: #74b9ff;
+}
+
+.att_sys {
+    background-color: #e17055;
+}
+.att_sys:hover {
+    background-color: #fab1a0;
+}
+
+.att_lab {
+    background-color: #6c5ce7;
+}
+.att_lab:hover {
+    background-color: #a29bfe;
+}
+
+.att_the {
+    background-color: #d63031;
+}
+.att_the:hover {
+    background-color: #ff7675;
+}
+
+
+
+/* NEW ATTRIBUTES PAGE */
+#main_box_attributes {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.textarea_attributes {
+    width: 257px;
+    max-width: 257px;
+    height: 110px;
+    max-height: 110px;
+}
+
+
+
+/* GAME DETAILS PAGE */
+#main_box_game {
+    display: flex;
+    flex-wrap: nowrap;
+}
+
+h4 {
+    font-size: 50px;
+    color: white;
+    text-align: center;
+    padding: 60px 0px;
+    text-shadow: 2px 2px #000000;
+}
+
+h5 {
+    font-family: 'Roboto-bold', sans-serif;
+    word-spacing: 10px;
+}
+
+.box_game {
+    min-width: 280px;
+}
+
+.box_game2 {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.gamedetails {
+    display: flex;
+    flex-wrap: nowrap;
+}
+
+.gamedetails_title {
+    width: 65%;
+    font-family: 'Roboto-bold', sans-serif;
+}
+
+.gamedetails_number {
+    width: 35%;
+}
+
+.space_under {
+    margin-bottom: 20px;
+}
+
+#summary {
+    text-align: justify;
+}
+
+#gamestats {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.gamestats_box {
+    width: 150px;
+    margin: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.gamestats_number {
+    font-family: 'Roboto-bold', sans-serif;
+    font-size: 40px;
+}
+
+
+
+/* ATTRIBUTES PAGE */
+#attributes {
+    width: 500px;
+}
+
+.table_name {
+    width: 25%;
+}
+
+.table_description {
+    width: 45%;
+}
+
+.table_shortname {
+    width: 10%;
+}
+
+.table_company {
+    width: 15%;
+}
+
+.table_colorbg {
+    width: 10%;
+}
+
+.table_colortext {
+    width: 10%;
+}
+
+
+
+/* FORMS */
+input[type="text"] {
+    border: 1px solid #dedfe0;
+    margin: 5px 0px;
+    padding: 5px;
+    font-size: 15px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    border-radius: 5px;
+    width: 257px;
+}
+
+input[type="number"] {
+    border: 1px solid #dedfe0;
+    margin: 5px 10px 5px 0px;
+    padding: 5px;
+    font-size: 15px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    border-radius: 5px;
+    width: 60px;
+}
+
+input[type="date"] {
+    border: 1px solid #dedfe0;
+    margin: 5px 0px;
+    padding: 5px;
+    font-size: 15px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    border-radius: 5px;
+    width: 150px;
+}
+
+input[type="file"] {
+    margin-bottom: 20px;
+}
+
+input[type="checkbox"] {
+    margin-right: 15px;
+}
+
+input[type="color"] {
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    border-radius: 5px;
+}
+
+input[type="submit"] {
+    border: none;
+    cursor: pointer;
+}
+
+#submit_button {
+    padding: 5px 10px;
+    font-size: 15px;
+    background-color: #00a5fd;
+    color: white;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    border-radius: 5px;
+}
+
+#submit_button:hover {
+    background-color: #74b9ff;
+}
+
+textarea {
+    border: 1px solid #dedfe0;
+    margin: 5px 0px;
+    padding: 5px;
+    font-size: 15px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    border-radius: 5px;
+    width: 687px;
+    max-width: 687px;
+    height: 110px;
+    max-height: 110px;
+}
+
+select {
+    border: 1px solid #dedfe0;
+    margin: 5px 0px;
+    padding: 5px;
+    font-size: 15px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    border-radius: 5px;
+    width: 239px;
+}
+
+label {
+    display: block;
+}
+
+#box_submit {
+    position: absolute;
+    right: 20px;
+    top: 10px;
+    cursor: pointer;
+}
+
+#incomplete {
+    color: #d63031;
+    margin-left: 20px;
+    font-size: 17px;
+}
+
+
+/* TABLES */
+table {
+    width: 900px;
+    margin: 25px auto 50px auto;
+}
+
+th {
+    text-align: left;
+    border-top: 1px solid #dedfe0;
+    border-bottom: 2px solid #dedfe0;
+    background-color: #f8f9fa;
+    font-weight: 900;
+    padding: 8px;
+}
+
+tr {
+    border-bottom: 1px solid #dedfe0;
+}
+
+tr:hover {
+    background-color: #f8f9fa;
+}
+
+td {
+    padding: 8px;
+}
+
+.table_id {
+    width: 6%; 
+}
+
+.table_title {
+    width: 70%;
+}
+
+
+/* BUTTONS */
+#cancel {
+    padding: 10px 15px;
+    font-size: 15px;
+    background-color: #d63031;
+    color: white;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    border-radius: 5px;
+    border: none;
+}
+
+.small_buttons {
+    border: none;
+    cursor: pointer;
+    background-color: #f8f9fa;
+}
+
+.view {
+    color: #fdcb6e;
+}
+
+.view:hover {
+    color: #ffeaa7;
+}
+
+.edit {
+    color: #00b894;
+}
+
+.edit:hover {
+    color: #55efc4;
+}
+
+.delete {
+    color: #d63031;
+}
+
+.delete:hover {
+    color: #ff7675;
+}
+
+#button_box {
+    position: absolute;
+    top: 0;
+    right: 210px;
+}
+
+.add {
+    display: inline-block;
+    color: white;
+    padding: 5px 10px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    border-radius: 5px;
+    text-align: center;
+    cursor: pointer;
+}
+
+.add i {
+    margin-right: 5px;
+}
+
+.game {
+    background-color: #81ecec;
+    margin-right: 25px;
+}
+
+.game:hover {
+    background-color: #00cec9;
+}
+
+.attributes {
+    background-color: #fab1a0;
+    margin-bottom: 30px;
+}
+
+.attributes:hover {
+    background-color: #e17055;
+}
